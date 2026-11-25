@@ -1,0 +1,444 @@
+﻿viết 183 bước từ đầu lập một kế hoạch đến cuối, và 183 các cản trở rủi ro luôn rình rập xung quanh.
+Dưới đây là 183 bước lập kế hoạch từ đầu đến cuối và 183 cản trở/rủi ro luôn rình rập, được xây dựng theo cấu trúc một dự án điển hình (chuẩn bị → thiết kế → triển khai → kiểm thử → vận hành → bàn giao → tổng kết), có thể áp dụng cho dự án phần mềm, xây dựng, kinh doanh hoặc sản xuất.
+
+
+
+ PHẦN A — 183 BƯỚC LẬP KẾ HOẠCH TỪ ĐẦU ĐẾN CUỐI
+
+ Giai đoạn 1: Khởi tạo & Định hình (Bước 1–20)
+
+1. Xác định lý do tồn tại của dự án (why).
+2. Viết tuyên bố tầm nhìn một câu.
+3. Viết tuyên bố sứ mệnh một câu.
+4. Xác định mục tiêu SMART tổng thể.
+5. Liệt kê các bên liên quan chính.
+6. Phân loại bên liên quan theo mức ảnh hưởng/quan tâm.
+7. Xác định người tài trợ (sponsor) và quyền quyết định.
+8. Chọn quản lý dự án.
+9. Thành lập ban chỉ đạo dự án.
+10. Xác định phạm vi sơ bộ (in-scope).
+11. Xác định phạm vi loại trừ (out-of-scope).
+12. Liệt kê giả định ban đầu.
+13. Liệt kê ràng buộc ban đầu (thời gian, tiền, nhân lực).
+14. Xác định tiêu chí thành công đo lường được.
+15. Xác định tiêu chí thất bại/chấm dứt.
+16. Lập sổ đăng ký bên liên quan (stakeholder register).
+17. Lập sổ đăng ký rủi ro sơ bộ.
+18. Lập sổ đăng ký vấn đề (issue log) trống.
+19. Lập sổ đăng ký quyết định (decision log) trống.
+20. Phê duyệt điều lệ dự án (project charter).
+
+ Giai đoạn 2: Nghiên cứu & Phân tích (Bước 21–40)
+
+21. Thu thập yêu cầu từ người dùng cuối.
+22. Thu thập yêu cầu từ bộ phận vận hành.
+23. Thu thập yêu cầu từ bộ phận pháp chế.
+24. Thu thập yêu cầu từ bộ phận tài chính.
+25. Phỏng vấn chuyên gia lĩnh vực.
+26. Khảo sát thị trường/đối thủ.
+27. Phân tích điểm mạnh đối thủ.
+28. Phân tích điểm yếu đối thủ.
+29. Phân tích xu hướng công nghệ/thị trường.
+30. Phân tích khung pháp lý liên quan.
+31. Phân tích tác động môi trường (nếu có).
+32. Phân tích tác động xã hội (nếu có).
+33. Lập ma trận truy xuất yêu cầu (requirements traceability).
+34. Phân loại yêu cầu chức năng.
+35. Phân loại yêu cầu phi chức năng.
+36. Ưu tiên yêu cầu bằng MoSCoW.
+37. Ưu tiên yêu cầu bằng ma trận giá trị/rủi ro.
+38. Xác định yêu cầu tối thiểu khả thi (MVP).
+39. Lập danh sách câu hỏi mở cần làm rõ.
+40. Chốt baseline yêu cầu v1.0.
+
+ Giai đoạn 3: Lập kế hoạch tổng thể (Bước 41–65)
+
+41. Xây dựng WBS cấp 1.
+42. Xây dựng WBS cấp 2.
+43. Xây dựng WBS cấp 3.
+44. Xác định gói công việc (work packages).
+45. Ước lượng thời gian từng gói công việc.
+46. Ước lượng chi phí từng gói công việc.
+47. Ước lượng nhân lực từng gói công việc.
+48. Xác định phụ thuộc giữa các gói công việc.
+49. Vẽ sơ đồ mạng lưới (network diagram).
+50. Xác định đường găng (critical path).
+51. Tính dự trữ thời gian (float/slack).
+52. Lập lịch trình tổng thể (Gantt).
+53. Lập kế hoạch nguồn lực.
+54. Lập kế hoạch ngân sách.
+55. Lập kế hoạch mua sắm/đấu thầu.
+56. Lập kế hoạch chất lượng.
+57. Lập kế hoạch truyền thông.
+58. Lập kế hoạch quản lý rủi ro.
+59. Lập kế hoạch quản lý thay đổi.
+60. Lập kế hoạch quản lý tri thức.
+61. Lập kế hoạch đào tạo.
+62. Lập kế hoạch chuyển giao.
+63. Lập kế hoạch dự phòng (contingency).
+64. Lập kế hoạch leo thang (escalation).
+65. Phê duyệt kế hoạch tổng thể baseline.
+
+ Giai đoạn 4: Thiết kế & Kiến trúc (Bước 66–85)
+
+66. Chọn kiến trúc tổng thể.
+67. Vẽ sơ đồ kiến trúc cấp cao.
+68. Thiết kế module/thành phần.
+69. Thiết kế giao diện người dùng.
+70. Thiết kế luồng dữ liệu.
+71. Thiết kế mô hình dữ liệu.
+72. Thiết kế API/hợp đồng tích hợp.
+73. Thiết kế bảo mật.
+74. Thiết kế phân quyền.
+75. Thiết kế sao lưu/phục hồi.
+76. Thiết kế giám sát/logging.
+77. Thiết kế triển khai (deployment).
+78. Thiết kế môi trường (dev/staging/prod).
+79. Đánh giá thiết kế (design review) vòng 1.
+80. Đánh giá thiết kế vòng 2.
+81. Chốt thiết kế baseline.
+82. Lập tài liệu kiến trúc.
+83. Lập tài liệu thiết kế chi tiết.
+84. Lập tài liệu quy chuẩn code.
+85. Phê duyệt thiết kế.
+
+ Giai đoạn 5: Chuẩn bị nguồn lực (Bước 86–100)
+
+86. Tuyển dụng/điều chuyển nhân sự.
+87. Ký hợp đồng nhà cung cấp.
+88. Mua sắm thiết bị/phần cứng.
+89. Cài đặt môi trường phát triển.
+90. Cài đặt môi trường kiểm thử.
+91. Cài đặt môi trường staging.
+92. Cài đặt môi trường production.
+93. Thiết lập kho mã nguồn (repo).
+94. Thiết lập quy trình phân nhánh (branching).
+95. Thiết lập CI/CD.
+96. Thiết lập quản lý ticket.
+97. Thiết lập kênh truyền thông nội bộ.
+98. Đào tạo nhân sự về quy trình.
+99. Đào tạo nhân sự về công cụ.
+100. Kiểm tra sẵn sàng nguồn lực (readiness check).
+
+ Giai đoạn 6: Triển khai thực thi (Bước 101–130)
+
+101. Khởi động sprint/đợt công việc 1.
+102. Họp giao ban hằng ngày.
+103. Cập nhật tiến độ hằng ngày.
+104. Xử lý vấn đề phát sinh trong ngày.
+105. Cập nhật sổ rủi ro hằng tuần.
+106. Họp đánh giá sprint 1.
+107. Cải tiến quy trình sau sprint 1.
+108. Khởi động sprint 2.
+109. Kiểm tra chất lượng giữa kỳ.
+110. Đánh giá tiến độ so với baseline.
+111. Điều chỉnh kế hoạch nếu lệch.
+112. Quản lý thay đổi yêu cầu.
+113. Phê duyệt/từ chối thay đổi.
+114. Cập nhật tài liệu theo thay đổi.
+115. Họp đánh giá sprint 2.
+116. Cải tiến quy trình sau sprint 2.
+117. Khởi động sprint 3.
+118. Kiểm tra tích hợp giữa các module.
+119. Kiểm tra hiệu năng sơ bộ.
+120. Kiểm tra bảo mật sơ bộ.
+121. Họp đánh giá sprint 3.
+122. Cải tiến quy trình sau sprint 3.
+123. Khởi động sprint 4.
+124. Hoàn thiện tài liệu kỹ thuật.
+125. Hoàn thiện tài liệu người dùng.
+126. Chuẩn bị kịch bản kiểm thử chấp nhận.
+127. Họp đánh giá sprint 4.
+128. Cải tiến quy trình sau sprint 4.
+129. Chốt phiên bản ứng viên (release candidate).
+130. Đóng gói bản phát hành.
+
+ Giai đoạn 7: Kiểm thử & Đảm bảo chất lượng (Bước 131–150)
+
+131. Kiểm thử đơn vị (unit test).
+132. Kiểm thử tích hợp (integration test).
+133. Kiểm thử hệ thống (system test).
+134. Kiểm thử chấp nhận người dùng (UAT).
+135. Kiểm thử hồi quy (regression test).
+136. Kiểm thử hiệu năng (performance test).
+137. Kiểm thử tải (load test).
+138. Kiểm thử căng thẳng (stress test).
+139. Kiểm thử bảo mật (security test).
+140. Kiểm thử khả năng phục hồi (recovery test).
+141. Kiểm thử tương thích (compatibility test).
+142. Kiểm thử đa ngôn ngữ (nếu có).
+143. Kiểm thử khả năng truy cập (accessibility).
+144. Ghi nhận lỗi vào hệ thống.
+145. Phân loại lỗi theo mức độ.
+146. Sửa lỗi nghiêm trọng (critical).
+147. Sửa lỗi cao (major).
+148. Sửa lỗi trung bình (minor).
+149. Kiểm thử lại sau sửa lỗi.
+150. Ký biên bản chấp nhận kiểm thử.
+
+ Giai đoạn 8: Vận hành & Giám sát (Bước 151–165)
+
+151. Triển khai lên production.
+152. Giám sát hệ thống 24/7.
+153. Giám sát hiệu năng.
+154. Giám sát bảo mật.
+155. Giám sát chi phí vận hành.
+156. Xử lý sự cố cấp 1.
+157. Xử lý sự cố cấp 2.
+158. Xử lý sự cố cấp 3.
+159. Cập nhật runbook vận hành.
+160. Đào tạo người dùng cuối.
+161. Hỗ trợ người dùng giai đoạn đầu.
+162. Thu thập phản hồi người dùng.
+163. Phân tích phản hồi.
+164. Lập kế hoạch cải tiến tiếp theo.
+165. Báo cáo vận hành tháng đầu.
+
+ Giai đoạn 9: Bàn giao & Chuyển giao (Bước 166–175)
+
+166. Lập danh mục tài sản bàn giao.
+167. Kiểm tra tài sản bàn giao.
+168. Bàn giao mã nguồn/tài liệu.
+169. Bàn giao quyền truy cập.
+170. Bàn giao hợp đồng/hồ sơ pháp lý.
+171. Đào tạo đội tiếp nhận.
+172. Chạy song song đội cũ/mới.
+173. Xác nhận đội mới vận hành độc lập.
+174. Ký biên bản bàn giao.
+175. Giải phóng nguồn lực dự án.
+
+ Giai đoạn 10: Tổng kết & Đóng dự án (Bước 176–183)
+
+176. Họp tổng kết dự án (lessons learned).
+177. Ghi nhận bài học thành công.
+178. Ghi nhận bài học thất bại.
+179. Đề xuất cải tiến cho dự án sau.
+180. Lập báo cáo tổng kết cuối cùng.
+181. Lưu trữ hồ sơ dự án.
+182. Giải tán ban chỉ đạo dự án.
+183. Đóng dự án chính thức.
+
+
+
+ PHẦN B — 183 CẢN TRỞ/RỦI RO LUÔN RÌNH RẬP XUNG QUANH
+
+ Nhóm 1: Rủi ro về con người (1–30)
+
+1. Nhân sự chủ chốt nghỉ việc giữa chừng.
+2. Nhân sự chủ chốt bị ốm dài ngày.
+3. Thiếu kỹ năng cần thiết trong đội.
+4. Xung đột nội bộ trong đội.
+5. Xung đột giữa đội dự án và bộ phận vận hành.
+6. Quản lý dự án thiếu kinh nghiệm.
+7. Quản lý dự án bị quá tải nhiều dự án.
+8. Bên liên quan thay đổi người đại diện.
+9. Bên liên quan không phản hồi đúng hạn.
+10. Bên liên quan hiểu sai yêu cầu.
+11. Nhân sự mới chưa được đào tạo đủ.
+12. Nhân sự làm việc từ xa thiếu kết nối.
+13. Văn hóa công ty không hỗ trợ đổi mới.
+14. Sợ thay đổi trong bộ phận tiếp nhận.
+15. Thiếu người kế nhiệm (succession).
+16. Tỷ lệ nghỉ việc cao bất thường.
+17. Tranh chấp lương/thưởng trong đội.
+18. Thiếu cam kết từ lãnh đạo cấp cao.
+19. Lãnh đạo thay đổi chiến lược đột ngột.
+20. Nhà cung cấp nhân sự không đạt chất lượng.
+21. Chuyên gia tư vấn bên ngoài rút lui.
+22. Thiếu tài liệu chuyển giao kiến thức.
+23. Nhân sự bị điều chuyển sang dự án khác.
+24. Nhân sự vi phạm bảo mật thông tin.
+25. Xung đột lợi ích cá nhân/tổ chức.
+26. Thiếu cơ chế ghi nhận đóng góp.
+27. Đội ngũ quá nhỏ so với khối lượng.
+28. Đội ngũ quá lớn gây khó phối hợp.
+29. Kỹ năng mềm (giao tiếp) yếu.
+30. Rào cản ngôn ngữ trong đội đa quốc gia.
+
+ Nhóm 2: Rủi ro về phạm vi & yêu cầu (31–55)
+
+31. Yêu cầu thay đổi liên tục (scope creep).
+32. Yêu cầu ban đầu mơ hồ.
+33. Yêu cầu mâu thuẫn giữa các bên.
+34. Yêu cầu không khả thi về kỹ thuật.
+35. Yêu cầu vượt ngân sách.
+36. Yêu cầu vượt thời gian.
+37. Thiếu tiêu chí chấp nhận rõ ràng.
+38. Người dùng cuối không được tham vấn.
+39. Bỏ sót yêu cầu phi chức năng.
+40. Bỏ sót yêu cầu pháp lý.
+41. Bỏ sót yêu cầu bảo mật.
+42. Bỏ sót yêu cầu khả năng truy cập.
+43. Phạm vi bị mở rộng không kiểm soát.
+44. Phạm vi bị thu hẹp đột ngột.
+45. Ưu tiên yêu cầu thay đổi liên tục.
+46. Tài liệu yêu cầu lỗi thời.
+47. Truy xuất yêu cầu bị đứt gãy.
+48. Yêu cầu từ nhiều nguồn không thống nhất.
+49. Yêu cầu bị hiểu sai khi chuyển giao.
+50. Thiếu baseline yêu cầu.
+51. Thay đổi yêu cầu không qua quy trình.
+52. Thay đổi yêu cầu không được ghi log.
+53. Yêu cầu "ẩn" chỉ phát hiện khi kiểm thử.
+54. Yêu cầu từ thị trường thay đổi nhanh.
+55. Đối thủ ra tính năng mới gây áp lực phạm vi.
+
+ Nhóm 3: Rủi ro về thời gian (56–75)
+
+56. Ước lượng thời gian quá lạc quan.
+57. Đường găng bị kéo dài.
+58. Phụ thuộc bên ngoài giao hàng trễ.
+59. Phê duyệt nội bộ chậm.
+60. Họp hành chiếm quá nhiều thời gian.
+61. Bị động bởi ngày lễ/Tết.
+62. Thời tiết xấu ảnh hưởng công việc hiện trường.
+63. Sự cố hạ tầng gây gián đoạn.
+64. Mất điện/mất mạng.
+65. Máy móc hỏng hóc.
+66. Nhân sự nghỉ phép đột xuất.
+67. Sprint bị kéo dài không kiểm soát.
+68. Nhiệm vụ bị dồn vào cuối kỳ.
+69. Thiếu dự trữ thời gian (buffer).
+70. Dự trữ thời gian bị lấy mất.
+71. Lịch trình không tính thời gian đào tạo.
+72. Lịch trình không tính thời gian kiểm thử.
+73. Lịch trình không tính thời gian sửa lỗi.
+74. Lịch trình không tính thời gian bàn giao.
+75. Milestone bị dời liên tục.
+
+ Nhóm 4: Rủi ro về chi phí (76–95)
+
+76. Ngân sách bị cắt giảm giữa chừng.
+77. Chi phí nhân sự tăng.
+78. Chi phí nguyên vật liệu tăng.
+79. Chi phí thiết bị tăng.
+80. Tỷ giá ngoại tệ biến động.
+81. Lạm phát ảnh hưởng chi phí.
+82. Phát sinh chi phí ngoài kế hoạch.
+83. Chi phí bảo trì bị đánh giá thấp.
+84. Chi phí đào tạo bị bỏ sót.
+85. Chi phí pháp lý bị bỏ sót.
+86. Chi phí kiểm thử bị bỏ sót.
+87. Chi phí triển khai bị bỏ sót.
+88. Chi phí dự phòng không đủ.
+89. Dòng tiền bị chậm so với kế hoạch.
+90. Nhà cung cấp đòi tăng giá.
+91. Hợp đồng không có điều khoản điều chỉnh giá.
+92. Thanh toán bị trễ do thủ tục.
+93. Thất thoát do gian lận nội bộ.
+94. Chi phí cơ hội bị bỏ qua.
+95. Tổng chi phí sở hữu (TCO) bị đánh giá thấp.
+
+ Nhóm 5: Rủi ro kỹ thuật & công nghệ (96–125)
+
+96. Công nghệ chọn bị lỗi thời.
+97. Công nghệ chọn không tương thích hệ thống cũ.
+98. Thư viện/phụ thuộc bị lỗi bảo mật.
+99. Thư viện/phụ thuộc bị bỏ rơi (abandoned).
+100. Lỗi kiến trúc phát hiện muộn.
+101. Nợ kỹ thuật tích tụ.
+102. Hiệu năng không đạt yêu cầu.
+103. Khả năng mở rộng kém.
+104. Lỗi tích hợp giữa các module.
+105. Lỗi tích hợp với hệ thống bên thứ ba.
+106. API bên thứ ba thay đổi đột ngột.
+107. API bên thứ ba ngừng hoạt động.
+108. Dữ liệu đầu vào bẩn/không nhất quán.
+109. Mất mát dữ liệu.
+110. Rò rỉ dữ liệu.
+111. Tấn công mạng (DDoS, SQL injection...).
+112. Lỗ hổng zero-day.
+113. Cấu hình sai môi trường production.
+114. Triển khai thất bại (deployment failure).
+115. Không có khả năng rollback.
+116. Sao lưu không được kiểm tra định kỳ.
+117. Phục hồi sau sự cố thất bại.
+118. Thiếu giám sát hệ thống.
+119. Log không đủ chi tiết để điều tra.
+120. Tài liệu kỹ thuật không đầy đủ.
+121. Môi trường dev/staging/prod không đồng nhất.
+122. Thiếu tự động hóa kiểm thử.
+123. Kiểm thử không bao phủ đủ.
+124. Lỗi chỉ xuất hiện trên production.
+125. Chi phí hạ tầng cloud vượt dự kiến.
+
+ Nhóm 6: Rủi ro về chất lượng (126–140)
+
+126. Tiêu chí chất lượng không rõ ràng.
+127. Kiểm thử bị cắt ngắn do áp lực thời gian.
+128. Lỗi nghiêm trọng lọt ra production.
+129. Người dùng từ chối nghiệm thu.
+130. Chất lượng tài liệu kém.
+131. Chất lượng đào tạo kém.
+132. Chất lượng hỗ trợ sau bàn giao kém.
+133. Thiếu kiểm soát phiên bản.
+134. Thay đổi không được kiểm thử hồi quy.
+135. Lỗi tái phát nhiều lần.
+136. Đo lường chất lượng không được thực hiện.
+137. KPI chất lượng không được giám sát.
+138. Nhà cung cấp giao hàng kém chất lượng.
+139. Nguyên vật liệu không đạt chuẩn.
+140. Quy trình QA bị bỏ qua.
+
+ Nhóm 7: Rủi ro pháp lý & tuân thủ (141–155)
+
+141. Thay đổi luật/quy định đột ngột.
+142. Thiếu giấy phép cần thiết.
+143. Giấy phép bị thu hồi.
+144. Vi phạm sở hữu trí tuệ.
+145. Tranh chấp bản quyền phần mềm.
+146. Vi phạm bảo mật dữ liệu cá nhân (GDPR/PDPA...).
+147. Hợp đồng có điều khoản bất lợi.
+148. Tranh chấp hợp đồng với nhà cung cấp.
+149. Kiện tụng từ bên thứ ba.
+150. Thiếu hồ sơ pháp lý bàn giao.
+151. Vi phạm quy định lao động.
+152. Vi phạm quy định môi trường.
+153. Vi phạm quy định an toàn lao động.
+154. Thuế/phí phát sinh ngoài dự kiến.
+155. Kiểm toán phát hiện sai phạm.
+
+ Nhóm 8: Rủi ro về truyền thông & bên liên quan (156–170)
+
+156. Thông tin sai lệch đến bên liên quan.
+157. Bên liên quan không được cập nhật tiến độ.
+158. Kỳ vọng bên liên quan không được quản lý.
+159. Xung đột lợi ích giữa các bên.
+160. Bên liên quan quyền lực rút hỗ trợ.
+161. Truyền thông nội bộ bị nhiễu.
+162. Tin đồn tiêu cực trong tổ chức.
+163. Báo chí/truyền thông đưa tin bất lợi.
+164. Mạng xã hội phản ứng tiêu cực.
+165. Khủng hoảng truyền thông.
+166. Thiếu kênh phản hồi chính thức.
+167. Ngôn ngữ tài liệu không phù hợp đối tượng.
+168. Họp không có biên bản.
+169. Quyết định không được ghi lại.
+170. Thay đổi người đại diện bên liên quan.
+
+ Nhóm 9: Rủi ro về nhà cung cấp & chuỗi cung ứng (171–180)
+
+171. Nhà cung cấp phá sản.
+172. Nhà cung cấp giao hàng trễ.
+173. Nhà cung cấp giao sai hàng.
+174. Nhà cung cấp tăng giá đột ngột.
+175. Chuỗi cung ứng bị gián đoạn toàn cầu.
+176. Thiếu nguyên vật liệu khan hiếm.
+177. Vận chuyển bị tắc nghẽn.
+178. Hàng hóa bị hư hỏng trong vận chuyển.
+179. Nhà cung cấp vi phạm bảo mật thông tin.
+180. Phụ thuộc độc quyền một nhà cung cấp.
+
+ Nhóm 10: Rủi ro khủng hoảng & bất khả kháng (181–183)
+
+181. Thiên tai (bão, lũ, động đất, dịch bệnh).
+182. Khủng hoảng kinh tế/chính trị toàn cầu.
+183. Sự cố bất khả kháng khác (chiến tranh, đình công, hỏa hoạn).
+
+
+
+ Ghi chú sử dụng
+
+- 183 bước có thể dùng làm checklist tổng thể; với dự án nhỏ, gộp các bước liên tiếp; với dự án lớn, tách nhỏ thêm.
+- 183 rủi ro nên được đưa vào sổ đăng ký rủi ro với 3 thuộc tính: xác suất (thấp/trung bình/cao), tác động (thấp/trung bình/cao), biện pháp ứng phó (né tránh/giảm thiểu/chuyển giao/chấp nhận).
+- Nên rà soát lại danh sách rủi ro hằng tuần trong suốt vòng đời dự án, vì rủi ro mới luôn xuất hiện theo từng giai đoạn.
